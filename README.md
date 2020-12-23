@@ -23,4 +23,6 @@ Results: Pick Best Best Pair based on Results (Sharpe ratio, CAGR, Avg Return (W
 ## Execution
 1. Run step1_findpairs.ipynb to get two csv files which are the ticker pairs outputted by cointegration after clustering (both DBSCAN and K-Means).
 
-2. Run step2_LSTM.ipynb to get the results passing White’s reality check from both DBSCAN and K-Means ticker pairs for both “Technology” and “Small Capital” ETFs. 
+2. Run step2_LSTM.ipynb to get the results passing White’s reality check from both DBSCAN and K-Means ticker pairs for both “Technology” and “Small Capital” ETFs.
+
+Seed app of the project: https://github.com/israeldi/Final-Project-EECS545
